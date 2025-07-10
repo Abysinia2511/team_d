@@ -27,9 +27,9 @@ jobs:
 
     - name: Build Docker Image
       run: |
-        docker build -t your-app-name .
-        docker tag your-app-name:latest <aws_account_id>.dkr.ecr.us-east-1.amazonaws.com/your-app-name:latest
+        docker build -t deeptrain-backend .
+        docker tag deeptrain-backend:latest 536284936847.dkr.ecr.us-east-1.amazonaws.com/deeptrain-backend:latest
 
     - name: Push to ECR
       run: |
-        docker push <aws_account_id>.dkr.ecr.us-east-1.amazonaws.com/your-app-name:latest
+        docker push 536284936847.dkr.ecr.us-east-1.amazonaws.com/deeptrain-backend:latest
