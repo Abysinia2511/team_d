@@ -27,9 +27,9 @@ jobs:
 
     - name: Build Docker Image
       run: |
-        docker build -t deeptrain-backend .
-        docker tag deeptrain-backend:latest 536284936847.dkr.ecr.us-east-1.amazonaws.com/deeptrain-backend:latest
+        docker build -t deeptrainbackend .
+        docker tag deeptrain-backend:latest 536284936847.dkr.ecr.us-east-1.amazonaws.com/deeptrainbackend:latest
 
     - name: Push to ECR
       run: |
-        docker push 536284936847.dkr.ecr.us-east-1.amazonaws.com/deeptrain-backend:latest
+        docker push 536284936847.dkr.ecr.us-east-1.amazonaws.com/deeptrainbackend:latest
