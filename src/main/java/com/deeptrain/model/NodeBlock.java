@@ -82,5 +82,117 @@ public class NodeBlock {
         this.type = type;
     }
 
+    public float getOffsetX() {
+        return offsetX;
+    }
+
+    public void setOffsetX(float offsetX) {
+        this.offsetX = offsetX;
+    }
+
+    public float getOffsetY() {
+        return offsetY;
+    }
+
+    public void setOffsetY(float offsetY) {
+        this.offsetY = offsetY;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getWelcomeMessage() {
+        return welcomeMessage;
+    }
+
+    public void setWelcomeMessage(String welcomeMessage) {
+        this.welcomeMessage = welcomeMessage;
+    }
+
+    public String getLessonType() {
+        return lessonType;
+    }
+
+    public void setLessonType(String lessonType) {
+        this.lessonType = lessonType;
+    }
+
+    public String getLessonContent() {
+        return lessonContent;
+    }
+
+    public void setLessonContent(String lessonContent) {
+        this.lessonContent = lessonContent;
+    }
+
+    public String getEstimatedTime() {
+        return estimatedTime;
+    }
+
+    public void setEstimatedTime(String estimatedTime) {
+        this.estimatedTime = estimatedTime;
+    }
+
+    public String getQuizTitle() {
+        return quizTitle;
+    }
+
+    public void setQuizTitle(String quizTitle) {
+        this.quizTitle = quizTitle;
+    }
+
+    public String getPassingScore() {
+        return passingScore;
+    }
+
+    public void setPassingScore(String passingScore) {
+        this.passingScore = passingScore;
+    }
+
+    public String getTimeLimit() {
+        return timeLimit;
+    }
+
+    public void setTimeLimit(String timeLimit) {
+        this.timeLimit = timeLimit;
+    }
+
+    public String getConditionExpression() {
+        return conditionExpression;
+    }
+
+    public void setConditionExpression(String conditionExpression) {
+        this.conditionExpression = conditionExpression;
+    }
+
+    public String getCheckpointTitle() {
+        return checkpointTitle;
+    }
+
+    public void setCheckpointTitle(String checkpointTitle) {
+        this.checkpointTitle = checkpointTitle;
+    }
+
+    public String getCheckpointNote() {
+        return checkpointNote;
+    }
+
+    public void setCheckpointNote(String checkpointNote) {
+        this.checkpointNote = checkpointNote;
+    }
+
+    public List<Map<String, String>> getQuestions() {
+        return questions;
+    }
+
+    public void setQuestions(List<Map<String, String>> questions) {
+        this.questions = questions;
+    }
+
 
 }

@@ -17,7 +17,8 @@ public class NodeBlockMapper {
                 NodeBlock block = new NodeBlock();
                 block.setId("AI-" + index++);
                 block.setTitle(line.trim());
-                block.setType("Lesson"); // Or "Decision", "Quiz", etc. based on parsing
+                block.setType("Lesson"); 
+                block.setLessonContent(rawText);// Or "Decision", "Quiz", etc. based on parsing
                 blocks.add(block);
             }
         }

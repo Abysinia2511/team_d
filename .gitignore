@@ -1,2 +1,4 @@
 // Placeholder for .gitignore
 .env
+target/
+
